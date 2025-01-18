@@ -27,17 +27,13 @@ Download the ChromeDriver version that matches your Chrome browser from here.
 Add the ChromeDriver executable to your system's PATH or place it in the project folder.
 Install Required Dependencies
 Ensure you have Selenium installed if you're using automated tests. Use the following command:
-bash
-Copy
-Edit
+
 pip install selenium
 For load testing, you might also need JMeter or other tools, depending on the test case.
 Steps to Run
 Clone the Repository
 
-bash
-Copy
-Edit
+
 git clone https://github.com/your-username/chaldal-website-testing.git  
 cd chaldal-website-testing
 Open in Visual Studio
@@ -46,9 +42,6 @@ Launch Visual Studio and open the solution file or project folder.
 Configure ChromeDriver
 
 Ensure the ChromeDriver executable is in the PATH or properly referenced in the test scripts. Example for Python:
-python
-Copy
-Edit
 from selenium import webdriver
 driver = webdriver.Chrome(executable_path="path/to/chromedriver")
 Run Specific Tests
